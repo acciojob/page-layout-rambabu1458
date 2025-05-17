@@ -1,13 +1,13 @@
-import React from 'react'
+import React from "react";
 
-const PageLayout = ({header,children,footer}) => {
+const PageLayout = ({ header, children, footer }) => {
   return (
     <div>
-        <header>{header}</header>
-        <main>{children}</main>
-        <footer>{footer}</footer>
+      <header>{header}</header>
+      <main>{children}</main>
+      <footer>{footer}</footer>
     </div>
-  )
-}
+  );
+};
 
-export default PageLayout
+export default PageLayout;
